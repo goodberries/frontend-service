@@ -14,7 +14,7 @@ spec:
     spec:
       containers:
       - name: frontend
-        image: your-docker-registry/frontend-service:v2
+        image: yashwanthydg/frontend-service:v2
         ports:
         - containerPort: 80
 ---
