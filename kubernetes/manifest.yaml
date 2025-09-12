@@ -14,7 +14,7 @@ spec:
     spec:
       containers:
       - name: frontend
-        image: your-docker-registry/frontend-service:latest # <-- IMPORTANT: Change this
+        image: your-docker-registry/frontend-service:v1 
         ports:
         - containerPort: 80
 ---
@@ -29,4 +29,4 @@ spec:
   ports:
   - port: 80
     targetPort: 80
-    nodePort: 30008 # Expose frontend on this port
+    nodePort: 30008 
