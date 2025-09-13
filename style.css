@@ -101,3 +101,35 @@ body {
 #send-btn:hover {
     background-color: #0056b3;
 }
+
+.feedback-buttons-container {
+    padding: 5px 20px 10px;
+    display: flex;
+    justify-content: flex-start;
+    gap: 10px;
+    border-top: 1px solid #ddd;
+}
+
+.feedback-btn {
+    background: none;
+    border: 1px solid #ccc;
+    border-radius: 50%;
+    width: 30px;
+    height: 30px;
+    cursor: pointer;
+    font-size: 15px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    transition: all 0.2s ease-in-out;
+}
+
+.feedback-btn:hover {
+    background-color: #f0f0f0;
+    transform: scale(1.1);
+}
+
+.feedback-btn.selected {
+    border-color: #007bff;
+    background-color: #e0efff;
+}
