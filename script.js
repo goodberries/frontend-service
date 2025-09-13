@@ -7,7 +7,7 @@ document.addEventListener('DOMContentLoaded', () => {
     // We assume the frontend and backend are served from the same domain,
     // so we can use a relative path. If they are on different domains,
     // you would need to configure CORS on the API Gateway and use the full URL.
-    const API_GATEWAY_URL = 'http://54.91.235.24:30007/chat';
+    const API_GATEWAY_URL = 'http://54.159.44.12:30007/chat';
 
     const sendMessage = async () => {
         const query = userInput.value.trim();
