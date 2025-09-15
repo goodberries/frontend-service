@@ -38,5 +38,5 @@ jobs:
     steps:
       - name: Deploy to Kubernetes
         run: |
-          kubectl set image deployment/frontend-service=${{ secrets.DOCKERHUB_USERNAME }}/frontend-service:${{ github.sha }}
+          kubectl set image deployment/frontend-service frontend-service=${{ secrets.DOCKERHUB_USERNAME }}/frontend-service:${{ github.sha }}
           echo "Deployment updated successfully!"
