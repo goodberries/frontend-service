@@ -7,6 +7,7 @@ document.addEventListener('DOMContentLoaded', () => {
     const dislikeBtn = document.getElementById('dislike-btn');
 
     const API_BASE_URL = `${window.location.protocol}//${window.location.hostname}:30007`;
+    console.log(API_BASE_URL)
     let currentInteractionId = null;
 
     const sendMessage = async () => {
