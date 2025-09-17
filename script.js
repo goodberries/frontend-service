@@ -16,7 +16,7 @@ document.addEventListener('DOMContentLoaded', () => {
 
         appendMessage(query, 'user');
         userInput.value = '';
-        feedbackButtons.style.display = 'none'; // Hide feedback buttons on new message
+        feedbackButtons.style.display = 'none'; // Hide feedback buttons on new message kjk
         currentInteractionId = null;
 
         try {
