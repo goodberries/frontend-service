@@ -14,7 +14,7 @@ spec:
     spec:
       containers:
       - name: frontend
-        image: yashwanthydg/frontend-service:v5
+        image: yashwanthydg/frontend-service:c0636cc8cdaaea046c0e5cac4db0bbac678be786
         ports:
         - containerPort: 80
 ---
